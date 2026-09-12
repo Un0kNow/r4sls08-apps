@@ -1,3 +1,7 @@
+# 0.1.1
+
+POC image version update. No integration deployment or Core restart.
+
 # 0.1.0
 
 - Initial private registry installation POC.

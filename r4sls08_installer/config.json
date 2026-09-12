@@ -1,6 +1,6 @@
 {
   "name": "R4SLS08 Installer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "slug": "r4sls08_installer",
   "description": "Private image distribution POC; reports its version without changing Home Assistant.",
   "arch": [
