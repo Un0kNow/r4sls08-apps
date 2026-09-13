@@ -1,6 +1,6 @@
 {
   "name": "R4SLS08 Installer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "slug": "r4sls08_installer",
   "description": "Atomically installs and updates the R4SLS08 integration from a verified private image.",
   "arch": [
