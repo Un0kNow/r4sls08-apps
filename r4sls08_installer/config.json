@@ -1,20 +1,42 @@
 {
   "name": "R4SLS08 Installer",
-  "version": "0.1.1",
+  "version": "1.0.1",
   "slug": "r4sls08_installer",
-  "description": "Private image distribution POC; reports its version without changing Home Assistant.",
+  "description": "Atomically installs and updates the R4SLS08 integration from a verified private image.",
   "arch": [
     "amd64",
     "aarch64"
   ],
   "image": "ghcr.io/un0know/r4sls08-installer",
   "startup": "application",
-  "boot": "manual",
+  "boot": "auto",
   "init": true,
   "stage": "experimental",
-  "options": {},
-  "schema": {},
-  "hassio_api": false,
-  "homeassistant_api": false,
-  "host_network": false
+  "homeassistant": "2026.9.1",
+  "map": [
+    {
+      "type": "homeassistant_config",
+      "read_only": false,
+      "path": "/config"
+    }
+  ],
+  "options": {
+    "rollback_to": "",
+    "retry_failed_release": false,
+    "backup_count": 5,
+    "health_timeout": 180
+  },
+  "schema": {
+    "rollback_to": "str",
+    "retry_failed_release": "bool",
+    "backup_count": "int(1,100)",
+    "health_timeout": "int(1,3600)"
+  },
+  "hassio_api": true,
+  "hassio_role": "homeassistant",
+  "homeassistant_api": true,
+  "host_network": false,
+  "docker_api": false,
+  "full_access": false,
+  "privileged": []
 }

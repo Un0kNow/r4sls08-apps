@@ -1,9 +1,9 @@
-# 0.1.1
+# 1.0.1
 
-POC image version update. No integration deployment or Core restart.
+- Release the tested transactional installer through the private source-tag build.
 
-# 0.1.0
+# 1.0.0
 
-- Initial private registry installation POC.
-- Reports image version and stays running for the native App update test.
-- No integration payload, Home Assistant config mounts or Core restart.
+- First production installer release.
+- Verifies a source-commit-bound payload before an atomic install or update.
+- Preserves verified backups and restores the previous integration on failure.
