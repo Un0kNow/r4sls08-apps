@@ -1,3 +1,11 @@
+# 1.0.8
+
+- Add Eltuno branding to the Installer App and the R4SLS08 integration, including
+  light/dark and high-resolution integration images.
+- Include branding in release exports and support the first metadata promotion
+  from the original repository without images.
+- Bundle integration 0.5.23 with the Eltuno assets.
+
 # 1.0.7
 
 - Keep the Installer App running when a newer integration was installed manually.
