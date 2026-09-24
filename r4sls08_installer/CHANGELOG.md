@@ -1,3 +1,14 @@
+# 1.0.10
+
+- Replace Eltuno branding with the approved Velnio master artwork in the
+  Installer App and R4SLS08 integration, including light/dark and 2× images.
+- Display Velnio in the App and integration names while preserving the existing
+  technical slugs, entity identities, and update path.
+
+- Bundle integration 0.5.28 with separate single-click, double-click and hold
+  mappings, preserved targets across entity renames, and hold confirmation from
+  fresh input samples.
+
 # 1.0.8
 
 - Add Eltuno branding to the Installer App and the R4SLS08 integration, including

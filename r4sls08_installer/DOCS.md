@@ -1,6 +1,6 @@
-# R4SLS08 Installer
+# Velnio Installer
 
-This App installs the R4SLS08 custom integration from its verified, immutable
+This App installs the Velnio R4SLS08 custom integration from its verified, immutable
 payload. Keep the App running to receive native App updates.
 
 The default settings retain five verified backups and allow 180 seconds for Home

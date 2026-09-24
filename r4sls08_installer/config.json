@@ -1,8 +1,8 @@
 {
-  "name": "R4SLS08 Installer",
-  "version": "1.0.8",
+  "name": "Velnio Installer",
+  "version": "1.0.10",
   "slug": "r4sls08_installer",
-  "description": "Atomically installs and updates the R4SLS08 integration from a verified private image.",
+  "description": "Atomically installs and updates the Velnio R4SLS08 integration from a verified private image.",
   "arch": [
     "amd64",
     "aarch64"
