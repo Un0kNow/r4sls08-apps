@@ -1,3 +1,11 @@
+# 1.0.11
+
+- Mark Velnio Installer as stable for normal Home Assistant App updates.
+- Bundle integration 0.5.28 and preserve the existing App identity, installation
+  path, verified backups, rollback and Core restart behavior.
+- Publish releases from master when VERSION increases: test both architectures,
+  publish the private image, then publish the verified public metadata and logo.
+
 # 1.0.10
 
 - Replace Eltuno branding with the approved Velnio master artwork in the

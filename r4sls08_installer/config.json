@@ -1,6 +1,6 @@
 {
   "name": "Velnio Installer",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "slug": "r4sls08_installer",
   "description": "Atomically installs and updates the Velnio R4SLS08 integration from a verified private image.",
   "arch": [
@@ -11,7 +11,7 @@
   "startup": "application",
   "boot": "auto",
   "init": true,
-  "stage": "experimental",
+  "stage": "stable",
   "homeassistant": "2026.9.1",
   "map": [
     {
